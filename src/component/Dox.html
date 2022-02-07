@@ -1,0 +1,164 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="knack1.Site1" %>
+
+<!DOCTYPE html> 
+
+<html>
+<head runat="server">
+    <title></title>
+    <!-- Font Awesome -->
+    <link
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        rel="stylesheet" />
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+        rel="stylesheet" />
+    <!-- MDB -->
+    <link
+        href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.5.0/mdb.min.css"
+        rel="stylesheet" />
+    <!-- MDB -->
+    <script
+        type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.5.0/mdb.min.js"></script>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <link href="css/style.css" rel="stylesheet" />
+    
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <!-- Navbar -->
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+                <!-- Container wrapper -->
+                <div class="container-fluid">
+
+
+                    <asp:HyperLink ID="HyperLink9" runat="server" NavigateUrl="home.aspx" CssClass="navbar-brand"><h3><b>Knack Tutorials</b></h3></asp:HyperLink>
+                    <!-- Toggle button -->
+                    <button
+                        class="navbar-toggler"
+                        type="button"
+                        data-mdb-toggle="collapse"
+                        data-mdb-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <i class="fas fa-bars"></i>
+                    </button>
+
+                    <!-- Collapsible wrapper -->
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <!-- Navbar brand -->
+
+                        <!-- Left links -->
+                        <ul class="navbar-nav me-auto">
+                            <li class="nav-item">
+                                <asp:HyperLink ID="HyperLink10" runat="server" NavigateUrl="home.aspx" CssClass="nav-link"><i class="fas fa-home"></i>Home</asp:HyperLink>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"><span><i class="fas fa-graduation-cap"></i></span>Class
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">                   
+                                    <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="classes/class6/class6_section.aspx" CssClass="dropdown-item">Class 6</asp:HyperLink>
+                                    <asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="classes/class7/class7_section.aspx" CssClass="dropdown-item">Class 7</asp:HyperLink>
+                                    <asp:HyperLink ID="HyperLink4" runat="server" NavigateUrl="classes/class8/class8_section.aspx" CssClass="dropdown-item">Class 8</asp:HyperLink>
+                                    <asp:HyperLink ID="HyperLink5" runat="server" NavigateUrl="classes/class9/class9_section.aspx" CssClass="dropdown-item">Class 9</asp:HyperLink>
+                                    <asp:HyperLink ID="HyperLink6" runat="server" NavigateUrl="classes/class10/class10_section.aspx" CssClass="dropdown-item">Class 10</asp:HyperLink>   
+                                    <asp:HyperLink ID="HyperLink7" runat="server" NavigateUrl="classes/class11/class11_section.aspx" CssClass="dropdown-item">Class 11</asp:HyperLink>   
+                                    <asp:HyperLink ID="HyperLink8" runat="server" NavigateUrl="classes/class12/class12_section.aspx" CssClass="dropdown-item">Class 12</asp:HyperLink>   
+                                </ul>
+                            </li>
+                                                        
+                            <li class="nav-item">                                
+                                <asp:HyperLink ID="HyperLink12" runat="server" NavigateUrl="gallery.aspx" CssClass="nav-link"><i class="fas fa-layer-group"></i>Gallery</asp:HyperLink>
+                            </li>
+                            <li class="nav-item">                               
+                                <asp:HyperLink ID="HyperLink13" runat="server" NavigateUrl="updates.aspx" CssClass="nav-link"><i class="fas fa-diagnoses"></i>Updates</asp:HyperLink>
+                            </li>
+                            <li class="nav-item">                                
+                                <asp:HyperLink ID="HyperLink14" runat="server" NavigateUrl="contact.aspx" CssClass="nav-link"><i class="fas fa-phone-alt"></i>Contact Us</asp:HyperLink>
+                            </li>
+                        </ul>
+
+                        
+                        <div class="d-flex">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li>
+                                    <asp:HyperLink ID="signup" runat="server" NavigateUrl="~/signup.aspx" CssClass="nav-link"><i class="fas fa-user-tie"></i>SignUp</asp:HyperLink>
+                                </li>
+
+                                <li class="nav-item">
+                                    <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/login.aspx" CssClass="nav-link"><i class="fas fa-user-tie"></i>Login</asp:HyperLink>                                    
+                                </li>
+
+                                <li class="nav-item">
+                                    <asp:Image ID="img" runat="server" Height="40px" Width="40px" CssClass="rounded-circle" />
+                                </li>
+
+                                <li class="nav-item dropdown">
+                                    <asp:LinkButton ID="hello" runat="server" Text="" CssClass="nav-link" role="button" data-bs-toggle="dropdown" aria-expanded="false"><%=HttpContext.Current.Session["Name"] %></asp:LinkButton>
+                                    <ul class="dropdown-menu">
+                                        <li class="nav-item"><asp:HyperLink ID="HyperLink15" runat="server" NavigateUrl="userprofile.aspx" CssClass="dropdown-item"><i class="fas fa-user-circle"></i>Profile</asp:HyperLink></li>
+                                        <li class="nav-item"><asp:HyperLink ID="HyperLink16" runat="server" NavigateUrl="logout.aspx" CssClass="dropdown-item"><i class="fas fa-sign-out-alt"></i>Logout</asp:HyperLink></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>                 
+                </div>
+               
+            </nav>
+            <!-- Navbar -->
+        </div>
+        <div>
+        </div>
+        <div class="bg-dark">
+            <!-- Footer -->
+            <footer class="page-footer font-small special-color-dark pt-4">
+
+                <!-- Footer Elements -->
+                <div class="container">
+
+                    <!-- Social buttons -->
+                    <ul class="list-unstyled list-inline text-center">
+                        <li class="list-inline-item">
+                            <a class="btn-floating btn-fb mx-1" href="#">
+                                <i class="fab fa-facebook-f bg-light text-primary rounded-circle"></i>
+                            </a>
+                        </li>
+
+                        <li class="list-inline-item">
+                            <a class="btn-floating btn-tw mx-1" href="#">
+                                <i class="fab fa-instagram bg-light text-primary rounded-circle"></i>
+                            </a>
+                        </li>
+
+                        <li class="list-inline-item">
+                            <a class="btn-floating btn-tw mx-1" href="#">
+                                <i class="fab fa-youtube bg-light text-primary rounded-circle"></i>
+                            </a>
+                        </li>
+                                                
+                    </ul>
+                    <!-- Social buttons -->
+
+                </div>
+                <!-- Footer Elements -->
+
+                <!-- Copyright -->
+                <div class="footer-copyright text-center py-3 text-light">
+                    © 2020-2021 Copyright:
+    <a href="#">knacktutorials.com</a>
+                </div>
+                <!-- Copyright -->
+
+            </footer>
+            <!-- Footer -->
+        </div>
+    </form>
+</body>
+</html>

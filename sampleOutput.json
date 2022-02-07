@@ -1,0 +1,123 @@
+{
+    "status": "ok",
+    "totalResults": 9,
+    "articles": [
+        {
+            "source": {
+                "id": "the-wall-street-journal",
+                "name": "The Wall Street Journal"
+            },
+            "author": "Liz Hoffman",
+            "title": "Bill Ackman Scored on Pandemic Shutdown and Bounceback",
+            "description": "Two complex trades on the economy’s swift shutdown and its fevered reopening netted almost $4 billion",
+            "url": "https://www.wsj.com/articles/bill-ackman-scored-on-pandemic-shutdown-and-bounceback-11643634004?mod=hp_lead_pos10",
+            "urlToImage": "https://images.wsj.net/im-476902/social",
+            "publishedAt": "2022-01-31T13:00:00Z",
+            "content": "As the coronavirus emerged,\r\nBill Ackman\r\nmade billions betting that the market was misjudging the viruss economic toll.Then he did it again a year later.In two complex debt investmentsone presaging … [+5508 chars]"
+        },
+        {
+            "source": {
+                "id": "australian-financial-review",
+                "name": "Australian Financial Review"
+            },
+            "author": "Sybilla Gross",
+            "title": "China bans Australian meatworks at centre of COVID-19 outbreak",
+            "description": "The suspension applies to Teys Australia’s Naracoorte facility from January 29, and marks another step in the trade war.",
+            "url": "http://www.afr.com/politics/federal/china-bans-australian-meatworks-at-centre-of-covid-19-outbreak-20220131-p59spx",
+            "urlToImage": "https://static.ffx.io/images/$zoom_0.1283%2C$multiply_4%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_97/t_crop_custom/c_scale%2Cw_800%2Cq_88%2Cf_jpg/t_afr_no_label_no_age_social_wm/5be06f6be3f4ac0769403007d07d84831039a968",
+            "publishedAt": "2022-01-31T12:21:19Z",
+            "content": "China has temporarily banned meat from a South Australian meatworks, the latest in a string of import halts from Australia in two years as authorities in Beijing increase scrutiny of overseas process… [+1327 chars]"
+        },
+        {
+            "source": {
+                "id": "techcrunch",
+                "name": "TechCrunch"
+            },
+            "author": "Kirsten Korosec",
+            "title": "The Station: Waymo sues to protect trade secrets, Wisk lands more Boeing capital and a chat with Toyota's chief scientist",
+            "description": "The Station is a weekly newsletter dedicated to all things transportation. Sign up here — just click The Station — to receive it every weekend in your inbox. Hello readers: Welcome to The Station, your central hub for all past, present and future means of mov…",
+            "url": "https://techcrunch.com/2022/01/31/the-station-waymo-sues-to-protect-trade-secrets-wisk-lands-more-boeing-capital-and-a-chat-with-toyotas-chief-scientist/",
+            "urlToImage": "https://techcrunch.com/wp-content/uploads/2021/12/Exterior-Perspective-Golden-Gate-Background-R1_2021_12_20.jpg?w=711",
+            "publishedAt": "2022-01-31T12:00:14Z",
+            "content": "The Station is a weekly newsletter dedicated to all things transportation. Sign up here just click The Station to receive it every weekend in your inbox.\r\nHello readers: Welcome to The Station, your … [+17191 chars]"
+        },
+        {
+            "source": {
+                "id": "bleacher-report",
+                "name": "Bleacher Report"
+            },
+            "author": "Gary Davenport",
+            "title": "NFC Champion Rams are One Win From Validation for the Matthew Stafford Trade",
+            "description": "The AFC champion  Cincinnati Bengals  are all about building through the draft. There have been free agent additions (edge-rusher Trey Hendrickson), but key contributors like quarterback ...",
+            "url": "https://bleacherreport.com/articles/2952929-nfc-champion-rams-are-one-win-from-validation-for-the-matthew-stafford-trade",
+            "urlToImage": "https://img.bleacherreport.net/img/images/photos/003/920/075/hi-res-171c99a0094c16408c517293a1e9aa62_crop_exact.jpg?w=1200&h=1200&q=75",
+            "publishedAt": "2022-01-31T05:37:45Z",
+            "content": "Marcio Jose Sanchez/Associated Press\r\nThe AFC champion Cincinnati Bengals are all about building through the draft. There have been free agent additions (edge-rusher Trey Hendrickson), but key contri… [+6500 chars]"
+        },
+        {
+            "source": {
+                "id": "google-news-ar",
+                "name": "Google News (Argentina)"
+            },
+            "author": null,
+            "title": "Contundente triunfo: el socialista Antonio Costa obtuvo una inesperada mayoría absoluta en Portugal",
+            "description": "El primer ministro, en el poder desde 2015, ya no dependerá de otros partidos para gobernar; la ultraderecha se transformó en la tercera fuerza política del país",
+            "url": "https://www.lanacion.com.ar/el-mundo/contundente-triunfo-el-socialista-antonio-costa-volvio-a-ganar-en-portugal-nid30012022/",
+            "urlToImage": "https://resizer.glanacion.com/resizer/Ez_v7UA0CDN3OoJ67-oAIW3t3go=/768x0/filters:quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/ASNSF2TXIVAJDJY7SPGFQ75SFE.JPG",
+            "publishedAt": "2022-01-31T01:28:00+00:00",
+            "content": "PARIS.- Tras días de intensa incertidumbre, el Partido Socialista (PS) portugués del primer ministro Antonio Costa ganó anoche holgadamente las elecciones legislativas anticipadas y obtuvo la mayoría… [+4006 chars]"
+        },
+        {
+            "source": {
+                "id": "bleacher-report",
+                "name": "Bleacher Report"
+            },
+            "author": "Zach Buckley",
+            "title": "The Player Every NBA Team Should Shop at the Trade Deadline",
+            "description": "NBA  teams have between now and the 3 p.m. ET trade deadline on Feb. 10 to transform themselves for the stretch run or maybe way beyond.   Sacrifices must be made. What front offices have to figure out is how significant those sacrifices should be...",
+            "url": "https://bleacherreport.com/articles/2952831-the-player-every-nba-team-should-shop-at-the-trade-deadline",
+            "urlToImage": "https://img.bleacherreport.net/img/images/photos/003/920/012/hi-res-16d8ed8908d6ab1c307c2a4dfcd8bca6_crop_exact.jpg?w=1200&h=1200&q=75",
+            "publishedAt": "2022-01-29T13:47:12Z",
+            "content": "Justin Ford/Getty Images\r\nBack in December, the well-plugged-in Tim Kawakami of The Athletic penned a column titled \"Why the Warriors absolutely, positively are not trading James Wiseman.\" So, you kn… [+1061 chars]"
+        },
+        {
+            "source": {
+                "id": "bleacher-report",
+                "name": "Bleacher Report"
+            },
+            "author": "Zach Buckley",
+            "title": "NBA Teams Desperate for a Deal by 2022 Trade Deadline",
+            "description": "Every  NBA  team has some motivation to make a move between now and the Feb. 10 trade deadline.   Whether adding a piece to help with a second-half push or subtracting a present contributor ...",
+            "url": "https://bleacherreport.com/articles/2952803-nba-teams-desperate-for-a-deal-by-2022-trade-deadline",
+            "urlToImage": "https://img.bleacherreport.net/img/images/photos/003/919/975/638a81fde7868b3d7906c6e04343cd3e_crop_exact.jpg?w=1200&h=1200&q=75",
+            "publishedAt": "2022-01-28T12:00:04Z",
+            "content": "Matt Slocum/Associated Press\r\nHow bad are things for the Blazers? Well, they ranked prominently among this season's biggest disappointments before losing Damian Lillard to abdominal surgery that will… [+1651 chars]"
+        },
+        {
+            "source": {
+                "id": "goteborgs-posten",
+                "name": "Göteborgs-Posten"
+            },
+            "author": "Hampus Dorian,Nora Lorek",
+            "title": "Brandmannen Johan väcktes av grannarna – hyllas som hjälte",
+            "description": "De boende i Annedal väcktes av en kraftig smäll följt av en våldsam brandutveckling. Människor klättrade längs fasaden och barnfamiljer hoppade från sina balkonger för att fly lågorna. Efteråt hyllades en okänd brandman, själv boende i ett av husen, av flera …",
+            "url": "http://www.gp.se/nyheter/g%C3%B6teborg/brandmannen-johan-v%C3%A4cktes-av-grannarna-hyllas-som-hj%C3%A4lte-1.55997822",
+            "urlToImage": "https://www.gp.se/image/policy:1.56008529:1632920129/image.jpg?f=Wide%26w=1200%26%24p%24f%24w=834285a",
+            "publishedAt": "2021-09-29T12:43:28Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": "crypto-coins-news",
+                "name": "Crypto Coins News"
+            },
+            "author": null,
+            "title": "3 Lonzo Ball Trades That Make Far Too Much Sense",
+            "description": null,
+            "url": "https://www.ccn.com/3-lonzo-ball-trades/",
+            "urlToImage": null,
+            "publishedAt": "2021-03-22T19:37:05.7720773Z",
+            "content": "<ul><li>New Orleans Pelicans star Lonzo Ball is reportedly on the trade block.</li><li>The two-way combo guard has a multitude of suitors.</li><li>He could push several playoff teams over the top or … [+3556 chars]"
+        }
+    ]
+}
