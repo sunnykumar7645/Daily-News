@@ -1,11 +1,13 @@
-import React, { Component } from 'react'
+// import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 
-export class Navbar extends Component {
-  render() {
+// we are chaniging the class based component into function based .
+// export class Navbar extends Component {
+    const Navbar = () =>{
+//   render() {
     return (
     <>
-        <nav className="navbar navbar-expand-lg navbar-dark bg-dark" >
+        <nav className="navbar fixed-top navbar-expand-lg navbar-dark bg-dark" >
             <div className="container-fluid">
                 <Link className="navbar-brand mx-4" to="Daily-News/"><h1>Daily News</h1></Link>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -32,39 +34,7 @@ export class Navbar extends Component {
                         <li><Link className="dropdown-item" to="Daily-News/technology">Technology</Link></li>
                         
                     </ul>
-                    </li>
-                    {/* <li className="nav-item dropdown">
-                        <a className="nav-link dropdown-toggle" to="/" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Dropdown
-                        </a>
-                        <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li className='nav-item'>
-                                <a className="nav-link" to="/business">Business</a>
-                                </li>
-                            <li className='nav-item'>
-                                <a className="nav-link" to="/entertainment">Entertainment</a>
-                                </li>
-                            <li className='nav-item'>
-                                <a className="nav-link" to="/general">General</a>
-                                </li>
-                            <li className='nav-item'>
-                                <a className="nav-link" to="/health">Health</a>
-                                </li>
-                            <li className='nav-item'>
-                                <a className="nav-link" to="/science">Science</a>
-                                </li>
-                            <li className='nav-item'>
-                                <a className="nav-link" to="/sports">Sports</a>
-                                </li>
-                            <li className='nav-item'>
-                                <a className="nav-link" to="/technology">Technology</a>
-                                </li>
-
-                        </ul>
-                    </li>     */}
-
-
-                   
+                    </li>            
                 </ul>
                 {/* <form className="d-flex">
                     <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
@@ -78,6 +48,6 @@ export class Navbar extends Component {
     </>
     )
   }
-}
+// }
 
 export default Navbar
